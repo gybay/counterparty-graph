@@ -1,0 +1,12 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+
+# Generated synthetic data stays out of the repo (the generator code goes in)
+data/synthetic/*
+!data/synthetic/.gitkeep
+graph/import/*
+!graph/import/.gitkeep
